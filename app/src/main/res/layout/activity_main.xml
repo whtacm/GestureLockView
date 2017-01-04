@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.robin.gesturelockdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="tips"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+    <com.robin.lib.GestureLockView
+        android:id="@+id/lockview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:mLockCircleStrokeColor="@android:color/darker_gray"
+        app:mLockCircleStrokeWidth="1dp"
+        app:mLockPathStrokeColor="@android:color/darker_gray"
+        app:mLockPathStrokeWidth="1dp"
+        app:mLockPointStrokeColor="@android:color/darker_gray"
+        app:mErrorColor="@color/colorAccent"
+        app:mSuccessColor="@color/blue"
+        app:mMaxLockLength="7"
+        app:mMinLockLength="4"
+        app:mRepeatAllowed="false"
+        app:mShowPath="true" />
+
+</LinearLayout>

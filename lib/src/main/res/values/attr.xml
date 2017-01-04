@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="com.robin.gesturelockview">
+        <attr name="mMinLockLength" format="integer" />
+        <attr name="mMaxLockLength" format="integer" />
+        <attr name="mRepeatAllowed" format="boolean" />
+        <attr name="mShowPath" format="boolean" />
+        <attr name="mLockCircleStrokeWidth" format="dimension" />
+        <attr name="mLockCircleStrokeColor" format="color" />
+        <attr name="mLockPointStrokeColor" format="color" />
+        <attr name="mLockPathStrokeColor" format="color" />
+        <attr name="mLockPathStrokeWidth" format="dimension" />
+        <attr name="mErrorColor" format="color" />
+        <attr name="mSuccessColor" format="color" />
+    </declare-styleable>
+
+</resources>
